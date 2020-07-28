@@ -1,0 +1,194 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "富四方商贸",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "富四方商贸",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/goodsList/goodsList",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/ProductDetails/ProductDetails",
+			"style": {
+				"navigationBarTitleText": "富四方商贸",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/aboutUs/aboutUs",
+			"style": {
+				"navigationBarTitleText": "平台介绍",
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/myTeam/myTeam",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/myPromotionCode/myPromotionCode",
+			"style": {
+				"navigationBarTitleText": "我的推广码",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/latestNews/latestNews",
+			"style": {
+				"navigationBarTitleText": "最新消息",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/goodsDetails/goodsDetails",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/editPassword/editPassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "注册账号",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/transfer/transfer",
+			"style": {
+				"navigationBarTitleText": "用户转账",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/myPurse/myPurse",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/withdrawManagement/withdrawManagement",
+			"style": {
+				"navigationBarTitleText": "提现管理",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/accountRecharge/accountRecharge",
+			"style": {
+				"navigationBarTitleText": "账户充值",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/recordManagement/recordManagement",
+			"style": {
+				"navigationBarTitleText": "录单管理",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/recordManagementSecond/recordManagementSecond",
+			"style": {
+				"navigationBarTitleText": "录单管理",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/seach/seach",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/recordSecond/recordSecond",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/editWechat/editWechat",
+			"style": {
+				"navigationBarTitleText": "修改微信号",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/editAddress/editAddress",
+			"style": {
+				"navigationBarTitleText": "修改地址",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/rechargeRecord/rechargeRecord",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7F8389",
+		"selectedColor": "#3793DF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/homeActive.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/goodsList/goodsList",
+			"iconPath": "static/list.png",
+			"selectedIconPath": "static/listActive.png",
+			"text": "商品分类"
+		}, {
+			"pagePath": "pages/member/member",
+			"iconPath": "static/personal.png",
+			"selectedIconPath": "static/personalActive.png",
+			"text": "会员中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "富四方商贸",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}

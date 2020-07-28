@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/member/member",
+    "pages/personal/personal",
+    "pages/goodsList/goodsList",
+    "pages/editPassword/editPassword",
+    "pages/login/login",
+    "pages/sign/sign",
+    "pages/transfer/transfer",
+    "pages/myPurse/myPurse"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "富四方商贸",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7F8389",
+    "selectedColor": "#3793DF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/homeActive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goodsList/goodsList",
+        "iconPath": "static/list.png",
+        "selectedIconPath": "static/listActive.png",
+        "text": "商品分类"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "iconPath": "static/personal.png",
+        "selectedIconPath": "static/personalActive.png",
+        "text": "会员中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap69.json"
+}

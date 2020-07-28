@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "picker-address": "/components/wangding-pickerAddress/wangding-pickerAddress"
+  }
+}
